@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "914944924362",
+    "project_id": "frutos-bosque",
+    "storage_bucket": "frutos-bosque.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914944924362:android:46441f6498c3c334d27233",
+        "android_client_info": {
+          "package_name": "cl.virginiogomez.trabajo022024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx2G-jhtO_e95COXAAOqcC4xPFRTPqrCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
