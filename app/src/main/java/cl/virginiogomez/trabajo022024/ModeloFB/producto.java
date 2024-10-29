@@ -7,7 +7,10 @@ public class producto {
     private int cantidad;
     private String nombreCategoria;
 
-    // Constructor
+    // Constructor vacío requerido para Firebase
+    public producto() {
+    }
+
     public producto(String id, String nombre, double precio, int cantidad, String nombreCategoria) {
         this.id = id;
         this.nombre = nombre;
@@ -16,7 +19,7 @@ public class producto {
         this.nombreCategoria = nombreCategoria;
     }
 
-    // Getters
+    // Getters y Setters
     public String getId() {
         return id;
     }
@@ -37,8 +40,9 @@ public class producto {
         return nombreCategoria;
     }
 
+
     @Override
     public String toString() {
-        return nombre + " - " + nombreCategoria + ": " + precio + " (" + cantidad + ")";
+        return nombre + ", " + "Precio$ "+precio + " Quedan  "+cantidad ; // Muestra nombre y descripción
     }
 }
